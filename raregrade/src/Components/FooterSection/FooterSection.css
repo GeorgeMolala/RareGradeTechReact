@@ -1,0 +1,12 @@
+.Footer-Content>table{
+    text-align: left;
+    width: 75vw;
+    margin-left: 17%;
+    margin-bottom: 5%;
+}
+
+.Footer-Content{
+    justify-content: center;
+    margin-top: 6%;
+}
+

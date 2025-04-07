@@ -1,0 +1,87 @@
+
+
+.Catchy-Phrase{
+    font-weight: 800;
+    text-align: left;
+    margin-left: 5%;
+    font-style: oblique;
+    font-size: 2.5vw;
+}
+
+.raregrade-image{
+  text-align: left;
+  margin-left: -1%;
+}
+
+.Supporting-Catchy-Phrase{
+
+    display: inline-flex;
+    text-align: left;
+
+}
+
+.Supporting-Catchy-Phrase>span{
+    font-size: 2.5vw;
+    color: ghostwhite;
+    flex-basis: 100%;
+  height: 0;
+}
+.Supporting-Catchy-Phrase-Supporting{
+  font-size: 2.5vw;
+  margin-right: 1%;
+  margin-top: 10%;
+}
+
+.Supporting-Catchy-Phrase>span>img{
+  /* position: absolute; */
+  height: 10vw;
+  width: 10vw;
+  margin-left: 160px;
+}
+.Intro-Section > * {
+    position: relative;  /* Ensures all child elements appear above the overlay */
+    z-index: 2;  /* Content sits above the overlay */
+  }
+
+.Intro-Section {
+    background-image: url('/public/Imags/background1.jpg');  /* Correct path */
+    background-size: cover;
+    position: relative;  /* Needed for overlay */
+    /* padding: 50px 0;  Space for content */
+    border-radius: 2%;
+    box-shadow: 2%;
+  }
+  
+  .Intro-Section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(105, 105, 105, 0.9);  /* Transparent black overlay */
+    z-index: 1;  /* Ensures the overlay sits above the background image but below content */
+  }
+
+ 
+
+.raregrade-image>img{
+  width: 44vw;
+  height: 39vw;
+}
+.catchy-section-styling{
+  display: inline-flex;
+  
+}
+
+.Wrapping-Catchy-Phrase>span>a{
+  margin-right: 40px;
+  color: ghostwhite;
+  background-color:grey;
+  padding: 0.5vw 0.5vw 0.5vw 0.5vw;
+  font-size: 1.2vw;
+  border-radius: 10px;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 2px;
+}

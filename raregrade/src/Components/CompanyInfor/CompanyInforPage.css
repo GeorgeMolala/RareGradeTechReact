@@ -1,0 +1,27 @@
+.CompanyInfor-Intro{
+    margin-top: 7%;
+    background-color: rgba(248, 248, 255, 0.432);
+}
+
+
+.CompanyInfor-Catchy-Phrase{
+    padding-top: 2%;
+}
+.CompanyInfor-Catchy-Phrase-Supporting{
+    padding-bottom: 4%;
+}
+
+.CompanyInfor-Catchy-Phrase>span{
+    font-weight: 700;
+    font-size: 2.5vw;
+    font-style: oblique;
+    text-align: left;
+    color: ghostwhite;
+   
+}
+.CompanyInfor-Catchy-Phrase-Supporting>span{
+  margin-left: 1.5%;
+  margin-right: 5%;
+  font-size: 1.4vw;
+  
+}

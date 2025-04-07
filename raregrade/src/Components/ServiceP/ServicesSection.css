@@ -1,0 +1,85 @@
+
+.Services-Section{
+   
+    
+    background-color: rgb(105, 105, 105);
+   
+}
+.Services-Section-Carousal{
+    display: inline-flex;
+}
+.Service-Section-Catchy-Phrase{
+    font-weight: 700;
+    font-size: 3vw;
+    font-style: oblique;
+}
+.Service-Section-Catchy-Phrase-Supporting{
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-weight: 500;
+}
+
+.card-supporting-data>span{
+    display: block;
+    text-align: left;
+    color: white;
+}
+.Card-Image-warpper>img{
+    width: 15vw;
+    height: 12vw;
+    text-align: left;
+    border-radius: 4%;
+}
+.Card-Image-warpper{
+    text-align: left;
+}
+.card-title{
+    font-size: 1vw;
+    text-align: left;
+    margin-left: 0.8vw;;
+    margin-top: -5px;
+    color: white;
+}
+.card-supporting-data>span{
+    font-size: 1vw;
+    font-weight: 400;
+}
+.card{
+    background-color: rgba(248, 248, 255, 0.418);
+    padding: 0.3%;
+    width: 15vw;
+    border-radius: 3%;
+    margin-left: 4vw;
+    
+}
+.Clients-Catchy-Phrase>span{
+    display: inline-flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 3vw;
+    font-style: oblique;
+}
+.Clients-Catchy-Phrase-supporting>span{
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-weight: 500;
+    font-size: 1.5vw;
+    color: white;
+    
+}
+
+.client-logo-formatting>img{
+    background-color: white;
+    border-radius: 20%;
+    width: 7vw;
+    height: 4.5vw;
+    margin-left: 6.2vw;
+}
+
+.Client-Carousal{
+    width: 50vw;
+   
+}
+.Carousal-Positioning{
+    display: inline-flex;
+}

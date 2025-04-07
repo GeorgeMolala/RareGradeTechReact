@@ -1,0 +1,23 @@
+.Nav-Wrapper{
+    background-color: dimgrey;
+    text-align: left;  
+}
+.Nav-Itmes{
+    margin-left: 1%;
+  
+}
+
+.Nav-Itmes>a{
+margin-right: 2%;
+font-size: 2vw;
+color: azure;
+font-weight:400;
+text-decoration: none;
+}
+
+.ImageSizing{
+    width: 28vw;
+    height: 5vw;
+    padding-right: 40vw;
+}
+

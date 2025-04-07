@@ -1,0 +1,57 @@
+
+.Client-Portal-Wrapper{
+    text-align: left;
+    background-color: rgba(248, 248, 255, 0.404);
+}
+.Client-Portal{
+    background-color: rgba(248, 248, 255, 0.404);
+    margin: 0, 0, 0, 0;
+}
+.Client-Portal-Wrapper>img{
+    width: 38vw;
+    height: 25vw;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    margin-left: 3%;
+}
+.Clients-Portals-Catchy-Phrase{
+    margin-top: -28vw;
+    
+    margin-left: 45vw;
+    text-align: left;
+    margin-right: 2%;
+}
+.Clients-Portals-Catchy-Phrase>span{
+    
+    font-weight: 900;
+    font-size: 2.5vw;
+    font-style: oblique;
+    text-align: left;
+    color: rgb(60, 73, 127);
+    text-decoration: underline;
+    text-decoration-thickness: 0.1vw;
+}
+.CLient-Button>a{
+   
+  color: ghostwhite;
+  background-color:grey;
+  padding: 0.5vw 0.5vw 0.5vw 0.5vw;
+  font-size: 1.2vw;
+  border-radius: 40px;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 0.1vw;
+  font-weight:500;
+}
+.CLient-Button{
+
+    margin-top: 4vw;
+}
+
+.Supporting-Clients-Portals-Catchy-Phrase>span
+{
+    font-size: 1.5vw;
+    text-align: left;
+    
+    
+}
