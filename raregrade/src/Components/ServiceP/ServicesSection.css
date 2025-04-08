@@ -18,6 +18,9 @@
     flex-wrap: wrap;
     font-weight: 500;
 }
+.Service-Section-Catchy-Phrase-Supporting>span{
+    font-size: 1.5vw;
+}
 
 .card-supporting-data>span{
     display: block;

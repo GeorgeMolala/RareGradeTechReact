@@ -1,6 +1,9 @@
 .Nav-Wrapper{
     background-color: dimgrey;
     text-align: left;  
+    position:fixed;
+    z-index: 10;
+    width: 100%;
 }
 .Nav-Itmes{
     margin-left: 1%;
