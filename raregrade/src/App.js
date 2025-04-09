@@ -7,6 +7,7 @@ import ServicesSection from "./Components/ServiceP/ServicesSection.jsx";
 import Clientportal from "./Components/ClientRegister/ClientPortalRegistration.jsx";
 import CompanyInfor from "./Components/CompanyInfor/CompanyInforPage.jsx";
 import FooterSection from "./Components/FooterSection/FooterSection.jsx"
+import UserFomr from "./Components/EmailForm/EmailFomr.jsx"
 
 
 function App() {
@@ -21,6 +22,10 @@ function App() {
         <div className="Intro-Section-Front">
           <IntroSection/>
         </div> 
+
+        {/* <div className="USerForm-Section-Front">
+          <UserFomr/>
+        </div> */}
 
         <div className="Service-Section-Front">
           <ServicesSection/>

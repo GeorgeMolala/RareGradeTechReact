@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Introduction-Page/Intro-Section.css";
+import UserFomr from "../EmailForm/EmailFomr.jsx"
+// import ModalVisibility from "../ModelScripts/ModalVisibility.js"
 
 const IntroSection = () =>{
-    return (
+     
+  const [ModalVisibilitys, setModalState] = useState(false);
 
+  const OpenModal =()=>setModalState(true);
+  const CloseModal = () => setModalState(false)
+
+
+    return (
+        
         <div className="Intro-Section" id="Home-Section" >
         <div className="Intro-Section-Support">  
 
@@ -36,12 +45,23 @@ const IntroSection = () =>{
                     <br/>
                  
                     <a id="BookAppointment-button" href="https://raregradetech.com/book-appointment/"> Book An Appointment</a>
-                    <a id="Email-button" href="https://raregradetech.com/book-appointment/">Tell Us Your Idea</a>
+
+                    <a id="Email-button" href="#" onClick={OpenModal}>Tell Us Your Idea</a>
+
                   </span>
                 </div>
-                </span>             
+                </span> 
+
+
+
               </div>
                
+              <div className="Modal-PopUp" id="Model-Show">
+                
+                  <UserFomr ModalVisibilitys={ModalVisibilitys} CloseModal={CloseModal} />
+                  
+              </div>
+
                <br/>
                <br/>
                <br/>
@@ -53,7 +73,7 @@ const IntroSection = () =>{
            
         </div>
 
-
+      
         </div>
     )
 }
