@@ -24,11 +24,14 @@ const EmailForm=({ ModalVisibilitys, CloseModal})=>{
           .then(
             () => {
               console.log('SUCCESS!');
+              alert("Successfully sent");
             },
             (error) => {
               console.log('FAILED...', error.text);
+              alert("Failed, try again later");
             },
           );
+         
       };
  
     return(
@@ -37,17 +40,17 @@ const EmailForm=({ ModalVisibilitys, CloseModal})=>{
             <form className="User-Form" ref={form} onSubmit={sendEmail}>
                 <div className="UserName">
                     <label>Name </label>
-                    <input type="text" name="user_name"/>
+                    <input type="text" name="user_name" required pattern="[A-Za-z]+" title="Provide valid Name"/>
                 </div>
 
                 <div className="UserEmail">
                     <label>Email</label>
-                    <input type="email" name="user_email"/>
+                    <input type="email" name="user_email" required title="Provide valid Email"/>
                     <br/>
                 </div>
 
                 <div className="MEssage-Field">
-                    <textarea type="text" placeholder="Talk to us" name="message"/>
+                    <textarea type="text" placeholder="Talk to us" name="message" required title="Field can not be empty"/>
                 </div>
 
                 <div className="Buttons-Clickable">
