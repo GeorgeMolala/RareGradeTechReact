@@ -25,9 +25,6 @@ z-index: 10; /* Ensure the modal appears on top */
    overflow: auto;
 }
 
-.alert{
-    background-color: red;
-}
 .UserName>label{
 color: black;
 font-size: 1vw;
@@ -55,7 +52,7 @@ margin-left: -5vw;
 }
 .Buttons-Clickable>button{
     margin-left: 10px;
-    font-size: 1.1w;
+    font-size: 1vw;
     margin-bottom: 20px;
     border-radius: 5px;
     border-width: 1px;
